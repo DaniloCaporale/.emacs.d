@@ -1,4 +1,4 @@
-# auctex
+; auctex
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)
@@ -10,7 +10,8 @@
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t)
 
-# PDF by default
+; PDF by default
 (setq TeX-PDF-mode t)
 
-(setq 'TeX-source-correlate-mode t)
+; backward search from PDF (Evince)
+;(setq 'TeX-source-correlate-mode t)
